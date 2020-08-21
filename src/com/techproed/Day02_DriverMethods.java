@@ -8,9 +8,9 @@ public class Day02_DriverMethods {
         System.setProperty("webdriver.chrome.driver","C:\\Users\\mysl\\Documents\\selenium dependencies\\driver\\chromedriver.exe");
         WebDriver webDriver=new ChromeDriver();
         webDriver.get("https://google.com");
-        webDriver.navigate().to("http//amazon.com");
+        webDriver.navigate().to("http://amazon.com");
 
-        String sayfaTitle=webDriver.getTitle();
+        String sayfaTitle= webDriver.getTitle();
         String sayfaUrl=webDriver.getCurrentUrl();
 
         System.out.println(sayfaTitle);

@@ -9,8 +9,10 @@ public class Day02_TitleUrlTest {
         WebDriver webDriver=new ChromeDriver();
 
         webDriver.get("https://youtube.com");
-        String sayfaBasligi=webDriver.getTitle();
-        if (sayfaBasligi.contains("video")){
+        String sayfabasligi=webDriver.getTitle();
+
+
+        if (sayfabasligi.contains("video")){
             System.out.println("var");
         }else{
             System.out.println("yok");
