@@ -16,7 +16,8 @@ public class Day05_Xpath02 {
         driver.get("http://a.testaddressbook.com/");
 
         WebElement welcome=driver.findElement(By.xpath("//h1"));
-        System.out.println(welcome.getText());
+        String s= welcome.getText();
+        System.out.println(s);
 
 
     }
